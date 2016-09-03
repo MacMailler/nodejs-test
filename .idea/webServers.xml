@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9706aa83-dbc0-47af-937f-f7c03b7ee031" name="DISYANET" url="http://disya.net">
+        <fileTransfer host="disya.net" port="21" rootFolder="/web/disya.net/public_html" password="dfdcdfcfdfd9dfdedfcbdf9bdf98df99dfc9dfc2dfcfdfcbdfdedfcfdfd8" username="admin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

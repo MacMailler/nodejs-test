@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.translucent { opacity: 0.5; }
+.translucent:hover { opacity: 1.0; }
+
+.translucent1 { opacity: 0.3; }
+.translucent1:hover{ opacity: 1.0; }

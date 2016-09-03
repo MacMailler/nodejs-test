@@ -1,0 +1,28 @@
+//
+   Created by denis on 19.08.16.
+
+doctype html
+html(lang=ru)
+    head
+        title DISYA.net | Recovery password
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+        script(src='/javascripts/auth.js')
+
+        link(href='/stylesheets/main.css', rel='stylesheet')
+        link(href='/stylesheets/auth.css', rel='stylesheet')
+        link(href='/stylesheets/auth-join.css', rel='stylesheet')
+    body
+        .main-wrapper
+            .auth-wrapper
+                form(class="auth-form", name="auth", action="/auth/recovery/", method="post")
+                    .auth-box
+                        img(class="logo", src="/images/disya-logo.png")
+                        input(class="input-phldr", name="name", form="auth-form", placeholder="Enter email", autocomplete="off" required="" type="text")
+                    button(id="join-button", class="auth-button join-button", form="auth-form", type="submit") RECOVERY
+                .footer
+                    a(style="color: #c5c5c5", href="/auth/") Authorization
+                    text &nbsp;|&nbsp;
+                    a(style="color: #c5c5c5", href="/join/") Registration
+                    .copyright
+                        &copy; MacMailler, 2016
